@@ -2,12 +2,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 90px;
 }
+
 ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  
+
 }
 
 li {
@@ -20,7 +22,7 @@ li {
   width: 250px;
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: bolder;
   background-color: rgb(244, 244, 244);
 
 }
