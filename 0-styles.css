@@ -18,12 +18,13 @@ li {
   margin: 0 20px;
   border: 3px solid gray;
   border-radius: 10px;
-  height: 480px;
+  height: 500px;
   width: 250px;
   text-align: center;
   font-size: 30px;
   font-weight: bolder;
   background-color: rgb(244, 244, 244);
+  padding-top: 20px;
 
 }
 
@@ -31,19 +32,19 @@ li:nth-child(1) {
   width: 280px;
   background-image: url('0-sprite.png');
   background-repeat: no-repeat;
-  background-position: 5px 60px;
+  background-position: 5px 70px;
 }
 
 li:nth-child(2) {
   width: 280px;
   background-image: url('0-sprite.png');
   background-repeat: no-repeat;
-  background-position: -289px 60px;
+  background-position: -289px 70px;
 }
 
 li:nth-child(3) {
   width: 280px;
   background-image: url('0-sprite.png');
   background-repeat: no-repeat;
-  background-position: -580px 60px;
+  background-position: -580px 70px;
 }
