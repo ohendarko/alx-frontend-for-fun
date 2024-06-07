@@ -1,0 +1,47 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  
+}
+
+li {
+  position: relative;
+  top: 0;
+  margin: 0 20px;
+  border: 3px solid gray;
+  border-radius: 10px;
+  height: 480px;
+  width: 250px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: rgb(244, 244, 244);
+
+}
+
+li:nth-child(1) {
+  width: 280px;
+  background-image: url('0-sprite.png');
+  background-repeat: no-repeat;
+  background-position: 5px 60px;
+}
+
+li:nth-child(2) {
+  width: 280px;
+  background-image: url('0-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -289px 60px;
+}
+
+li:nth-child(3) {
+  width: 280px;
+  background-image: url('0-sprite.png');
+  background-repeat: no-repeat;
+  background-position: -580px 60px;
+}
