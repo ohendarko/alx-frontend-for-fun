@@ -1,0 +1,117 @@
+body {
+  padding: 40px 80px;
+}
+
+i {
+  height: 100px;
+  width: 100px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-open {
+  width: 100px
+}
+
+.menu-line {
+  width: 20px;
+  height: 3px;
+}
+
+/* .toggle {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+} */
+
+/* .toggle-cb {
+  height: 100px;
+  width: 100px;
+} */
+
+/* .menu {
+  display: flex;
+} */
+
+/* .menu-open-button {
+  background-color: #042188;
+  width: 30px;
+  height: 3px;
+  cursor: pointer;
+  position: relative;
+  transition: 0.2s;
+  margin: 0;
+  content: 'No';
+  color: black;
+  position: absolute;
+  top: 20px;
+  
+}
+
+.menu-open-button::before {
+  position: absolute;
+  content: '';
+  background-color: #11ee11;
+  top: -5px;
+  left: 3px;
+  width: 30px;
+  height: 3px;
+  transition: 0.2s;
+  margin: -3px;
+}
+
+.menu-open-button::after {
+  position: absolute;
+  content: '';
+  background-color: #821010;
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  transition: 0.2s;
+  margin: -3px;
+  top: 10px;
+  left: 2px
+} */
+
+/* .toggle-label::after {
+  content: 'No';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(20%, -50%);
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgb(184, 184, 184);
+  transition: 0.2s;
+} */
+/* 
+input:checked+.menu-open-button {
+  background-color: red;
+}
+
+input:checked+.toggle-label::before {
+  transform: translateX(145px);
+}
+
+input:checked+.toggle-label::after {
+  content: 'Yes';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-100%, -50%);
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+input {
+  display: none;
+} */
