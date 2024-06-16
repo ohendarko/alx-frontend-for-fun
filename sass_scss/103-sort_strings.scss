@@ -1,6 +1,29 @@
 /*sorted*/
 @import '103-sort_list';
 
-$sorted_list: sort($list_to_sort);
+@function custom-sort($list) {
 
-@debug $sorted_list;
+  @if length($list) <= 1 {
+    @return $list;
+  }
+  $pivot: nth($list, 1);
+
+  $smaller: ();
+  $larger: ();
+  
+  @for $i from 2 through length($list) {
+    $item: nth($list, $i);
+    @if $item < $pivot {
+      $smaller: append($smaller, $item);
+    } @else {
+      $larger: append($larger, $item);
+    }
+  }
+  
+  @return append(append(custom-sort($smaller), $pivot), custom-sort($larger));
+}
+
+$sorted_list: custom-sort($list_to_sort);
+
+
+@debug "Sorted List: #{$sorted_list}";
