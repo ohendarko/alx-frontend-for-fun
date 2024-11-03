@@ -47,12 +47,12 @@
 }
 
 .toggle-label::after {
-  content: 'No';
+  content: 'Light';
   /* Add the text content here */
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(20%, -50%);
+  left: 40%;
+  transform: translate(20%, -40%);
   font-size: 45px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 400;
@@ -61,7 +61,7 @@
 }
 
 input:checked+.toggle-label {
-  background-color: red;
+  background-color: rgb(13, 2, 46);
 }
 
 input:checked+.toggle-label::before {
@@ -69,7 +69,7 @@ input:checked+.toggle-label::before {
 }
 
 input:checked+.toggle-label::after {
-  content: 'Yes';
+  content: 'Dark';
   /* Add the text content here */
   position: absolute;
   top: 50%;
